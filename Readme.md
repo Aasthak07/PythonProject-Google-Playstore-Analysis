@@ -1,4 +1,4 @@
-# 📱 Google Play Store Data Analysis – Internship Project (NullClass)
+# 📱 Google Play Store Data Analysis
 
 This project was completed as part of a data analytics internship program offered by **NullClass**. The objective was to extract insights, visualize patterns, and simulate production-level dashboard logic using Google Play Store data.
 
@@ -150,3 +150,32 @@ Data Science Student | Python & Visualization Enthusiast
 | datetime / pytz | Time filtering logic |
 
 ---
+HOW TO RUN
+============
+
+PREREQUISITES
+-------------
+Python 3.8+
+Jupyter Notebook
+pip
+
+INSTALLATION
+------------
+git clone <repo-url>
+cd <repo-folder>
+python -m venv venv
+# activate venv
+pip install -r requirements.txt
+
+RUNNING THE PROJECT
+-------------------
+python -m notebook
+# open main.ipynb
+# run cells
+
+PROJECT STRUCTURE
+-----------------
+main.ipynb
+requirements.txt
+data/
+README.txt
