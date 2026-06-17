@@ -8,10 +8,10 @@ This project was completed as part of a data analytics internship program offere
 
 To explore and analyze user reviews, app ratings, category performance, and install trends on the Google Play Store using Python tools like Pandas, NumPy, and Plotly. The project focused on:
 
-- Sentiment analysis of app reviews  
-- Category-based comparisons  
-- Data filtering based on real-world rules  
-- Visualization dashboards with time-based logic  
+- Sentiment analysis of app reviews
+- Category-based comparisons
+- Data filtering based on real-world rules
+- Visualization dashboards with time-based logic
 
 ---
 
@@ -23,11 +23,12 @@ To explore and analyze user reviews, app ratings, category performance, and inst
 Visualize the distribution of user sentiments (`Positive`, `Neutral`, `Negative`) for apps based on different rating groups.
 
 **What was done:**
-- Filtered apps with more than 1,000 reviews  
-- Created custom rating buckets (1–2 stars, 3–4 stars, 4–5 stars)  
-- Selected top 5 app categories  
-- Grouped the data by category, sentiment, and rating group  
-- Visualized it using a stacked bar chart (Plotly)  
+
+- Filtered apps with more than 1,000 reviews
+- Created custom rating buckets (1–2 stars, 3–4 stars, 4–5 stars)
+- Selected top 5 app categories
+- Grouped the data by category, sentiment, and rating group
+- Visualized it using a stacked bar chart (Plotly)
 - Ensured clean data with null handling and type conversion
 
 ---
@@ -38,12 +39,13 @@ Visualize the distribution of user sentiments (`Positive`, `Neutral`, `Negative`
 Compare the **average rating** and **total review count** for the top 10 app categories by number of installs.
 
 **What was done:**
+
 - Filtered dataset to exclude:
-  - Categories with average rating below 4.0  
-  - Apps with size below 10MB  
-  - Apps not updated in January  
-- Selected top 10 categories by install count  
-- Visualized data using a grouped bar chart  
+  - Categories with average rating below 4.0
+  - Apps with size below 10MB
+  - Apps not updated in January
+- Selected top 10 categories by install count
+- Visualized data using a grouped bar chart
 - Implemented time restriction: chart only shows between **3 PM to 5 PM IST**
 
 ---
@@ -54,16 +56,17 @@ Compare the **average rating** and **total review count** for the top 10 app cat
 Show the relationship between app size and rating, using bubble size for number of installs.
 
 **What was done:**
+
 - Applied multiple filters:
-  - Rating > 3.5  
-  - Reviews > 500  
-  - Installs > 50,000  
-  - Excluded app names containing letter **"S"**  
-  - Sentiment subjectivity > 0.5  
+  - Rating > 3.5
+  - Reviews > 500
+  - Installs > 50,000
+  - Excluded app names containing letter **"S"**
+  - Sentiment subjectivity > 0.5
   - Included only selected categories (Game, Beauty, Business, etc.)
 - Enhanced with:
-  - Translations: Beauty (Hindi), Business (Tamil), Dating (German)  
-  - Highlighted the Game category in **pink**  
+  - Translations: Beauty (Hindi), Business (Tamil), Dating (German)
+  - Highlighted the Game category in **pink**
   - Chart shown only between **5 PM to 7 PM IST**
 
 ---
@@ -95,14 +98,14 @@ Show the relationship between app size and rating, using bubble size for number 
 
 ## 🛠 Libraries Used
 
-| Library     | Purpose                          |
-|-------------|----------------------------------|
-| `pandas`    | Data loading, cleaning, analysis |
-| `numpy`     | Numeric operations               |
-| `plotly`    | Interactive visualizations       |
-| `random`    | Simulated sentiment values       |
-| `datetime`  | Time-based logic for chart access|
-| `pytz`      | Timezone handling (IST)          |
+| Library    | Purpose                           |
+| ---------- | --------------------------------- |
+| `pandas`   | Data loading, cleaning, analysis  |
+| `numpy`    | Numeric operations                |
+| `plotly`   | Interactive visualizations        |
+| `random`   | Simulated sentiment values        |
+| `datetime` | Time-based logic for chart access |
+| `pytz`     | Timezone handling (IST)           |
 
 ---
 
@@ -122,59 +125,57 @@ This project was part of the final submission for the NullClass Internship.
 The dashboard and charts created can be integrated into any Python or Streamlit-based reporting system.  
 Each task demonstrated professional skills in:
 
-- Data manipulation  
-- Insight extraction  
-- Visualization logic  
+- Data manipulation
+- Insight extraction
+- Visualization logic
 - Real-world readiness (time logic, translations, filtering)
 
 ---
 
-## 🙋‍♂️ About Me
-
-**Sumit Agnihotri**  
-Data Science Student | Python & Visualization Enthusiast  
-[GitHub](https://github.com/Sumit-Agnihotri) | [LinkedIn](https://www.linkedin.com/in/sumit-agnihotri/)
-
 ---
 
-> 📈 *Built for growth. Designed to impress. Ready for real-world challenges.*
+> 📈 _Built for growth. Designed to impress. Ready for real-world challenges._
 
 ## 📊 Technologies Used
 
-| Tool    | Purpose                     |
-|---------|-----------------------------|
-| Python  | Core programming            |
-| Pandas  | Data handling               |
-| NumPy   | Numeric operations          |
-| Plotly  | Interactive visualizations  |
-| datetime / pytz | Time filtering logic |
+| Tool            | Purpose                    |
+| --------------- | -------------------------- |
+| Python          | Core programming           |
+| Pandas          | Data handling              |
+| NumPy           | Numeric operations         |
+| Plotly          | Interactive visualizations |
+| datetime / pytz | Time filtering logic       |
 
 ---
-HOW TO RUN
-============
 
-PREREQUISITES
--------------
+# HOW TO RUN
+
+## PREREQUISITES
+
 Python 3.8+
 Jupyter Notebook
 pip
 
-INSTALLATION
-------------
+## INSTALLATION
+
 git clone <repo-url>
 cd <repo-folder>
 python -m venv venv
+
 # activate venv
+
 pip install -r requirements.txt
 
-RUNNING THE PROJECT
--------------------
+## RUNNING THE PROJECT
+
 python -m notebook
+
 # open main.ipynb
+
 # run cells
 
-PROJECT STRUCTURE
------------------
+## PROJECT STRUCTURE
+
 main.ipynb
 requirements.txt
 data/
